@@ -1,0 +1,8 @@
+127.0.0.1 - - [21/Apr/2020:16:20:19 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:20:19 +0530] "GET /SpringBoot-JPA/ HTTP/1.1" 404 1093
+127.0.0.1 - - [21/Apr/2020:16:26:15 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:26:17 +0530] "GET /SpringBoot-JPA/ HTTP/1.1" 404 147
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:26:27 +0530] "GET /SpringBoot-JPA/student HTTP/1.1" 200 972
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:26:57 +0530] "GET /SpringBoot-JPA/hello?sid=1001&name=Mihir&email=mihir@gmail.com&marks=88 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:26:57 +0530] "GET /SpringBoot-JPA/student HTTP/1.1" 200 1197
+0:0:0:0:0:0:0:1 - - [21/Apr/2020:16:27:21 +0530] "GET /SpringBoot-JPA/removeStudent?sid=1001 HTTP/1.1" 404 160
